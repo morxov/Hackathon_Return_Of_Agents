@@ -1,0 +1,24 @@
+.event-feed {
+  width: 100%;
+}
+
+.event-feed__loading,
+.event-feed__error,
+.event-feed__empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 1.125rem;
+  color: #888;
+}
+
+.event-feed__error {
+  color: #dc143c;
+  background-color: rgba(220, 20, 60, 0.1);
+  border-radius: 8px;
+  border: 1px solid #dc143c;
+}
+
+.event-feed__list {
+  display: flex;
+  flex-direction: column;
+}

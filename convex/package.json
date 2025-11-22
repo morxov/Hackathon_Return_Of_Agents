@@ -1,0 +1,20 @@
+{
+  "name": "omi-convex-backend",
+  "version": "1.0.0",
+  "description": "Convex backend for Omi Audio Monitor",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy",
+    "test": "vitest --run"
+  },
+  "keywords": ["convex", "omi"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "convex": "^1.14.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4",
+    "fast-check": "^3.15.0"
+  }
+}
